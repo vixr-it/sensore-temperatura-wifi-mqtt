@@ -1,2 +1,10 @@
-# sensore-temperatura-wifi-mqtt
-Software per la creazione di un Sensore di temperatura WIFI che pubblica la temperatura su un topic MQTT
+#  Sensore di temperatura WiFi con ESP8266 (in deep sleep), BME280 e MQTT.
+
+Sorgente scritto su Arduino Framework per la gestione di un sensore BME280 Bosch mediante ESP8266 - ESP12.
+
+Il software permette l'invio della temperatura su un determinato topic MQTT.
+
+Maggiorni dettagli in questo articolo:
+
+
+[link Articolo completo su vixr.it]: https://vixr.it/?p=497
