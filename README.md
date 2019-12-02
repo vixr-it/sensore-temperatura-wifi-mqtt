@@ -7,4 +7,4 @@ Il software permette l'invio della temperatura su un determinato topic MQTT.
 Maggiorni dettagli in questo articolo:
 
 
-[link Articolo completo su vixr.it]: https://vixr.it/?p=497
+[link]: https://vixr.it/?p=497
