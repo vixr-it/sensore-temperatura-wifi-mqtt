@@ -14,8 +14,8 @@
 
 
 // Configurazione Accesso WIFI
-const char* ssid = "AMDomus";
-const char* password = "AleMar7981";
+const char* ssid = "xxxxx";
+const char* password = "xxxxxx";
 
 // Configurazione Server Mosquitto MQTT
 const char* mqttServer = "192.168.1.121";
@@ -67,9 +67,9 @@ void setup() {
   Serial.setTimeout(200000);
 
   // Tento la connessione al BME280
-  if (! bme.begin(&Wire)) {
+  if (! bme.begin(0x76, &Wire)) {
         Serial.println("Non riesco a trovare un sensore BME280 valido, dovresti ricontrollare i collegamenti.");
-        while (1);
+        while (1) delay(10);
   }
 
   // Imposto la modalitá del sensore BME, seguendo la documentazione della libreria
